@@ -1,0 +1,20 @@
+apiVersion: v2
+name: tdarr
+description: Tdarr server with internal node for automated media transcoding. bjw-s app-template wrapper.
+type: application
+version: 1.0.0
+appVersion: "v2"
+kubeVersion: ">=1.22.0-0"
+keywords:
+  - tdarr
+  - transcoding
+  - media
+  - bjw-s
+  - app-template
+sources:
+  - https://github.com/HaveAGitGat/Tdarr
+dependencies:
+  - name: app-template
+    alias: tdarr
+    version: "4.6.2"
+    repository: https://bjw-s-labs.github.io/helm-charts
