@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  tdarr:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-06-10T03:00:11.366872217Z"
+    dependencies:
+    - alias: tdarr
+      name: app-template
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.6.2
+    description: Tdarr server with internal node for automated media transcoding.
+      bjw-s app-template wrapper.
+    digest: efd13030c8e840eb69ea136d596e814c337037668963fe0eaa8dde598ac6dd00
+    keywords:
+    - tdarr
+    - transcoding
+    - media
+    - bjw-s
+    - app-template
+    kubeVersion: '>=1.22.0-0'
+    name: tdarr
+    sources:
+    - https://github.com/HaveAGitGat/Tdarr
+    type: application
+    urls:
+    - https://expectedbehaviors.github.io/tdarr/tdarr-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-06-10T03:00:11.359684938Z"
