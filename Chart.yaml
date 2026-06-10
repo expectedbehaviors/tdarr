@@ -3,7 +3,7 @@ name: tdarr
 description: Tdarr server with internal node for automated media transcoding. bjw-s app-template wrapper.
 type: application
 version: 1.0.0
-appVersion: "v2"
+appVersion: "1.0.0"
 kubeVersion: ">=1.22.0-0"
 keywords:
   - tdarr
