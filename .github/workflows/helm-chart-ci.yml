@@ -44,7 +44,10 @@ jobs:
       tag_prefix: tdarr-v
       helm_repositories: |
         bjw-s=https://bjw-s-labs.github.io/helm-charts
-      publish_enabled: false
+      publish_enabled: true
+      chart_name: tdarr
+      helm_repo_name: bjw-s
+      helm_repo_url: https://bjw-s-labs.github.io/helm-charts
       release_notes_enabled: true
       initial_version: ${{ github.event.inputs.baseline_version || '' }}
       release_tag: ${{ github.event.inputs.release_tag || '' }}
